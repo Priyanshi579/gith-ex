@@ -1,0 +1,1 @@
+echo "h1 fromm f.sh"
