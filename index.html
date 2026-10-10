@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101820">
+  <meta name="description" content="Portfolio of Priyanshi Kumari Singh — web development and machine learning projects.">
+  <title>Priyanshi Kumari Singh | Portfolio</title>
+  <style>
+    :root { color-scheme: dark; --bg:#101820; --panel:#17242e; --text:#edf4f5; --muted:#afc0c5; --accent:#79e0c1; --line:#30424a; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:radial-gradient(ellipse at 80% 0%,#1e3b42 0,transparent 36rem),var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    a { color:var(--accent); text-underline-offset:4px; }
+    .wrap { width:min(100% - 2rem, 980px); margin:auto; }
+    header { padding:1.2rem 0; border-bottom:1px solid var(--line); }
+    nav { display:flex; justify-content:space-between; align-items:center; gap:1rem; }
+    .brand { color:var(--text); font-weight:750; text-decoration:none; letter-spacing:.02em; }
+    .navlinks { display:flex; gap:1.2rem; flex-wrap:wrap; }
+    .navlinks a { color:var(--muted); text-decoration:none; }
+    .hero { padding:6rem 0 5rem; max-width:760px; }
+    .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.16em; font-size:.78rem; font-weight:700; }
+    h1 { font-size:clamp(2.6rem,8vw,5rem); line-height:1.05; letter-spacing:-.055em; margin:.7rem 0 1.2rem; }
+    .lead { color:var(--muted); font-size:clamp(1.1rem,2.5vw,1.35rem); max-width:650px; }
+    .actions { display:flex; gap:.8rem; flex-wrap:wrap; margin-top:1.8rem; }
+    .button { display:inline-block; padding:.7rem 1rem; border-radius:999px; border:1px solid var(--line); text-decoration:none; color:var(--text); }
+    .button.primary { background:var(--accent); color:#10221f; border-color:var(--accent); font-weight:700; }
+    section { padding:2.5rem 0; }
+    h2 { font-size:1.8rem; letter-spacing:-.03em; margin:0 0 1.2rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1rem; }
+    .card { background:color-mix(in srgb,var(--panel) 88%,transparent); border:1px solid var(--line); border-radius:18px; padding:1.25rem; }
+    .card h3 { margin:.1rem 0 .6rem; font-size:1.15rem; }
+    .card p { color:var(--muted); margin:.4rem 0 0; }
+    .tags { color:var(--accent); font-size:.85rem; margin-top:1rem; }
+    .about { max-width:700px; color:var(--muted); }
+    footer { border-top:1px solid var(--line); margin-top:3rem; padding:1.5rem 0 2rem; color:var(--muted); font-size:.93rem; }
+    @media (max-width:520px) { .hero { padding:4rem 0 3rem; } nav { align-items:flex-start; flex-direction:column; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap"><nav aria-label="Main navigation">
+      <a class="brand" href="#home">Priyanshi Kumari Singh</a>
+      <div class="navlinks"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+    </nav></div>
+  </header>
+  <main class="wrap">
+    <section class="hero" id="home">
+      <div class="eyebrow">Student · Developer · Data enthusiast</div>
+      <h1>Learning by building.</h1>
+      <p class="lead">Hello, I’m Priyanshi. I enjoy exploring web development and machine learning, and sharing what I learn through practical projects.</p>
+      <div class="actions"><a class="button primary" href="#work">Explore my work</a><a class="button" href="#contact">Get in touch</a></div>
+    </section>
+    <section id="work">
+      <h2>Selected work</h2>
+      <div class="grid">
+        <article class="card"><h3>Web development exercises</h3><p>Small HTML, CSS, and JavaScript projects built while practising core web development concepts.</p><div class="tags">HTML · CSS · JavaScript</div></article>
+        <article class="card"><h3>Workstation rental price prediction</h3><p>Machine learning experiments for a Kaggle competition, comparing gradient boosting approaches and tuning model parameters.</p><div class="tags">Kaggle · LightGBM · XGBoost</div><p><a href="https://www.kaggle.com/code/priyanshikumarisingh/24f3004439-notebook-2026t3/edit/run/356658070" target="_blank" rel="noopener noreferrer">View Kaggle notebook ↗</a></p></article>
+        <article class="card"><h3>Sales data analysis</h3><p>Analysed archived transaction data and calculated regional monthly revenue from CSV records.</p><div class="tags">CSV · Python · Data analysis</div></article>
+      </div>
+    </section>
+    <section id="about">
+      <h2>A little about me</h2>
+      <p class="about">I’m a student building practical skills through coursework and hands-on projects. I’m currently learning, experimenting, and improving one project at a time.</p>
+    </section>
+    <section id="contact">
+      <h2>Let’s connect</h2>
+      <p>For questions or collaboration, email me at<br><a href="mailto:<!--email_off-->24f3004439@ds.study.iitm.ac.in<!--/email_off-->"><!--email_off-->24f3004439@ds.study.iitm.ac.in<!--/email_off--></a></p>
+    </section>
+  </main>
+  <footer><div class="wrap">© 2026 Priyanshi Kumari Singh · Built with HTML and CSS</div></footer>
+</body>
+</html>
+
